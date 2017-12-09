@@ -25,7 +25,7 @@ A web application that takes a number from a user and returns a range of numbers
 * Jquery
 
 ## Setup and Installation
-+ Make sure you have you are on inernet with browser i.e chrome installed in your computer
++ Make sure you are on inernet with browser i.e chrome installed in your computer
 + navigate to github you url and search my username:evantoh
 + go to my repositoy workplace download or clone my ping-pong project
 ## license MIT
