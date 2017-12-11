@@ -3,24 +3,23 @@ div.container {
   border: 1px solid gray;
   background-color: #162b17;
   font-size: 16px
-
 }
 
 header {
-      padding: 10px;
-      color: white;
-      background-color: #b0bbb1;
-      clear: none;
-      text-align: center;
-      font-family: serif;
-      font-size: 21px;
+  padding: 10px;
+  color: white;
+  background-color: #b0bbb1;
+  clear: none;
+  text-align: center;
+  font-family: serif;
+  font-size: 21px;
 }
 
 nav {
-      float: left;
-      max-width: 242px;
-      margin: 14px;
-      padding: 2em;
+  float: left;
+  max-width: 242px;
+  margin: 14px;
+  padding: 2em;
 }
 
 nav Ol {
@@ -32,63 +31,66 @@ nav Ol {
 
 nav Ol a {
   font-family: sans-serif;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  }
 
 .rules {
   margin-left: 180px;
-      border-left: 0px solid gray;
-      padding: 7em;
-      overflow: hidden;
-      color: #a59696;
-      font-size: 13px;
+  border-left: 0px solid gray;
+  padding: 7em;
+  overflow: hidden;
+  color: #a59696;
+  font-size: 13px;
 }
+
 #rules-li{
-   font-size: 20px;
-    font-family: sans-serif;;
+  font-size: 20px;
+  font-family: sans-serif;
 }
+
 .rules h1{
   font-size: 30px;
   font-style: oblique;
 }
+
 .rules h3{
   font-size: 30px;
-    padding-bottom: 1px;
+  padding-bottom: 1px;
 }
 .rules p{
   font-size: 23px;
 }
 ul li{
   color: #ff9100;
-font-size: 24px
+  font-size: 24px
 }
 #ping-pong-form{
   color: #f7f6f6;
-    font-size: 34px;
-    padding-bottom: 19px;
-    padding-left: 113px;
+  font-size: 34px;
+  padding-bottom: 19px;
+  padding-left: 113px;
 }
+
 form input#userInput{
   padding-top: 17px;
-padding-bottom: 17px;
-padding-left: 10px;
+  padding-bottom: 17px;
+  padding-left: 10px;
 }
+
 .btn-style #pong-btn{
   padding-top: 1px;
-background: #a6a6dc;
-padding-left: 28px;
-margin-left: 304px;
-margin-top: 15px;
+  background: #a6a6dc;
+  padding-left: 28px;
+  margin-left: 304px;
+  margin-top: 15px;
 }
 body{
  font-family: 'Squada One';font-size: 22px;
  background-color: #4CAF50;
-
 }
 footer{
-
   padding: 10px;
   color: white;
   background-color: #1B5E20;
