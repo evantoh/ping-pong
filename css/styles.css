@@ -1,8 +1,8 @@
 div.container {
-    width: 100%;
-    border: 1px solid gray;
-    background-color: #4CAF50;
-    font-size: 16px;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: #162b17;
+  font-size: 16px
 
 }
 
@@ -37,13 +37,28 @@ nav Ol a {
     font-size: 16px;
 }
 
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-    color: white;
-    font-size: 16px;
+.rules {
+  margin-left: 180px;
+      border-left: 0px solid gray;
+      padding: 7em;
+      overflow: hidden;
+      color: #a59696;
+      font-size: 13px;
+}
+#rules-li{
+   font-size: 20px;
+    font-family: sans-serif;;
+}
+.rules h1{
+  font-size: 30px;
+  font-style: oblique;
+}
+.rules h3{
+  font-size: 30px;
+    padding-bottom: 1px;
+}
+.rules p{
+  font-size: 23px;
 }
 ul li{
   color: #ff9100;
