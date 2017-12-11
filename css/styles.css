@@ -1,56 +1,70 @@
-body{
-  background-color: green;
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: #4CAF50;
+    font-size: 16px;
+
 }
 
 header {
-  text-align: center;
-  background-color: green;
+      padding: 10px;
+      color: white;
+      background-color: #b0bbb1;
+      clear: none;
+      text-align: center;
+      font-family: serif;
+      font-size: 21px;
+}
+
+nav {
+      float: left;
+      max-width: 242px;
+      margin: 14px;
+      padding: 2em;
+}
+
+nav Ol {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+}
+
+nav Ol a {
+  font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    color: white;
+    font-size: 16px;
+}
+ul li{
+  color: #ff9100;
+font-size: 24px
+}
+form{
+  color: white;
+  font-size: 16px;
 }
 body{
-  background-image:url("../images/sky-background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;}
-#background-header{background-image: url("../images/image-sky-background2.jpeg");
-	background-size:cover;
-	height:300px;
-	height: 350px;}
-.jubmbo-section-text{color: white;
-					text-align: center;}
-#form-section{text-align: center;
-				color: white;}
-#myform-item1{width:200px;
-			height: 40px;
-			vertical-align: middle;
-			}
-							color: white;}
-#myform-item2{width:200px;
-			height: 40px;
-			vertical-align: middle;
-			}
-#modal-section{
-	position: relative;
-  top:30px;
-  left: 400px;
+ font-family: 'Squada One';font-size: 22px;
+ background-color: #4CAF50;
 
 }
-#modal-button{
-	height: 30px;
-	width: 200px;
-}
-#x-button{
-	margin-top: 10px;
-  margin-right: 15px;
-}
-#modal-color{
-	background-color: rgb(0, 128, 255);
-}
-#header-style{text-align: center;}
-#modal-para{
-	color: white;
-	text-align: center;
-}
-#github-link{
-	font-famly: Courier, monospace;
-	color:black;
+footer{
 
+  padding: 10px;
+  color: white;
+  background-color: #1B5E20;
+  clear: left;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
 }

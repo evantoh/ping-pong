@@ -1,28 +1,47 @@
 <!DOCTYPE html>
-<html lang="eng">
-  <head >
-    <title>ping-pong</title>
-  <!--Bootstrap-->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<html>
+<head>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <title>Ping Pong</title>
+</head>
 
-    <!--jquery-->
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <!--custom stylesheet-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-  </head>
 <body>
-  <header>
-    <h1>PING PONG</h1>
-    <p>this is a fantastic game!!!</p>
-  </header>
-  <div id="form-section">
-  <h3>hi!! let us play,key in a number to ping-pong</h3>
-  <form>
-      <input style="color:#000;" type="text" id="myform-item1">
-      <button type="submit" class="btn btn-info btn-lg" id="myform-item2">play</button>
-  </form>
-</div>
 
-  </body>
+  <div class="container">
+    <header>
+      <h1>Ping Pong </h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/evantoh">GitHub url</a></li>
+        <li>Created by: </br> evans mwenda</li>
+        <li>Level two </li>
+      </ul>
+    </nav>
+    <article>
+      <h1>Let's play ping pong !</h1>
+      <h3>Rules:</h3>
+      <p>Ping Pong will count up to your number 1 with the following expecttions</p>
+      <ol>
+        <li>Numbers divisible by 3 become "ping"</li>
+        <li>Numbers divisible by 5 become "pong"</li>
+        <li>Numbers divisible by 15 become "pingpong"</li>
+
+      </ol>
+    </article>
+    <form id="ping-pong-form">
+      <label for="userInput">Enter a number:</label>
+      <input id="userInput" type="number">
+      <button type="submit">Ping Pong</button>
+      <button id="reset" type="reset" value="Reset">Reset</button>
+    </form>
+    <ul id="output"></ul>
+
+    <footer>Copyright &copy;evans</footer>
+
+  </div>
+</body>
+
 </html>

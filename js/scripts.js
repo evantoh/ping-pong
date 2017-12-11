@@ -1,30 +1,27 @@
-//business logic
-/*function that recieve input from user evaluate using "if else statement"
- and convert it arrays*/
-var pingGeneratedArrays= function(userInput) {
-	var resultOfArray = [];
-	//for loop
-	for(var i = 1; i <= userInput; i += 1) {
-		if(((i % 3) === 0) && ((i % 5) === 0)) {
-			resultOfArray.push("pingpong");
-		} else if ((i % 3) === 0) {
-			resultOfArray.push("ping");
-		} else if ((i % 5) === 0) {
-			resultOfArray.push("pong");
-		} else {
-			resultOfArray.push(i);
-		}
-	}
-	return resultOfArray;
+function pingPong(inputedNum ) {
+  var output = [];
+  for (var i = 1; i <= inputedNum ; i++) {
+    if (i % 15 === 0) {
+      output.push("ping-pong");
+    } else if (i % 3 === 0) {
+      output.push("ping");
+    } else if (i % 5 === 0) {
+      output.push("pong");
+    } else  {
+      output.push(i);
+    }
+  }
+  return output;
 }
-/ jquery
+
 $(document).ready(function() {
-$("#myform-item2").click(function(event) {
-		event.preventDefault();
-		//get input from user
-		var userInput = parseInt($("#myform-item1").val());
-		$("#append-list-arrays").empty();
-		var resultOfArray = pingGeneratedArrays(userInput);
-  	$("#append-list-arrays").text(resultOfArray);
+  $('#ping-pong-form').submit(function(event) {
+    event.preventDefault();
+    var inputedNum = $('#userInput').val();
+
+    var output = pingPong(inputedNum );
+    output.forEach(function(element) {
+      $('#output').append("<li>" + element + "</li>");
+    });
   });
 });
