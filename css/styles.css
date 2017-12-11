@@ -76,12 +76,19 @@ padding-bottom: 17px;
 padding-left: 10px;
 }
 .btn-style #pong-btn{
-  padding-top: 17px;
-  background: #a6a6dc;
-  padding-left: 24px;
-  margin-left: 299px;
-  margin-top: 18px;
+  padding-top: 1px;
+background: #a6a6dc;
+padding-left: 28px;
+margin-left: 304px;
+margin-top: 15px;
 }
+.btn-style #reset{
+  padding-top: 1px;
+  background: #a6a6dc;
+  padding-left: 57px;
+  margin-left: 304px;
+  margin-top: 15px;
+
 
 body{
  font-family: 'Squada One';font-size: 22px;
