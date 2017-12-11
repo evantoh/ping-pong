@@ -27,14 +27,15 @@
         <li>Numbers divisible by 3 become "ping"</li>
         <li>Numbers divisible by 5 become "pong"</li>
         <li>Numbers divisible by 15 become "pingpong"</li>
-
       </ol>
     </div>
     <form id="ping-pong-form">
-      <label for="userInput">Enter a number:</label>
+      <label for="userInput">Enter numbers only:</label>
       <input id="userInput" type="number">
-      <button type="submit">Ping Pong</button>
+      <div class="btn-group btn-group-lg btn-style">
+      <button type="submit" id="pong-btn">Ping Pong</button>
       <button id="reset" type="reset" value="Reset">Reset</button>
+    </div>
     </form>
     <ul id="output"></ul>
 

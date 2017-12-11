@@ -64,10 +64,25 @@ ul li{
   color: #ff9100;
 font-size: 24px
 }
-form{
-  color: white;
-  font-size: 16px;
+#ping-pong-form{
+  color: #f7f6f6;
+    font-size: 34px;
+    padding-bottom: 19px;
+    padding-left: 113px;
 }
+form input#userInput{
+  padding-top: 17px;
+padding-bottom: 17px;
+padding-left: 10px;
+}
+.btn-style #pong-btn{
+  padding-top: 17px;
+  background: #a6a6dc;
+  padding-left: 24px;
+  margin-left: 299px;
+  margin-top: 18px;
+}
+
 body{
  font-family: 'Squada One';font-size: 22px;
  background-color: #4CAF50;
